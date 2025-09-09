@@ -43,7 +43,7 @@ class Server {
         })
 
         this.app.listen(`${this.port}`, ()=>{
-            console.log(`Servidor Corriendo en puerto ${this.port}`)
+            console.log(`Server running on port ${this.port}`)
         })
 
 
